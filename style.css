@@ -7,7 +7,7 @@ body{
     max-width: 100%;
     background-image: url("./img/backgroundTMT.png");
     background-size: 100% auto;
-    
+    background-repeat: no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
