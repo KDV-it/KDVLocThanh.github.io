@@ -92,7 +92,6 @@ function random () {
 
     img.src = data[random].url;
     img.classList.add("img-loichua");
-    img.style.borderRadius = "10px";
     document.body.appendChild(img);
     document.querySelector(".container").style.display = "none";
     
