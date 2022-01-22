@@ -84,8 +84,8 @@ const data = [
 
 
 function random () {
-    let random = Math.floor(Math.random() * 21);
-    console.log(random);
+    let random = Math.floor(Math.random() * 20);
+
     
     const img = document.createElement("img");
      
@@ -93,7 +93,9 @@ function random () {
     img.src = data[random].url;
     img.classList.add("img-loichua");
     document.body.appendChild(img);
+
     document.querySelector(".container").style.display = "none";
+    // document.querySelector(".logo-text").style.display = "none";
     
 }
 
