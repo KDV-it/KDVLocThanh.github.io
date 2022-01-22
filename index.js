@@ -95,7 +95,7 @@ function random () {
     document.body.appendChild(img);
 
     document.querySelector(".container").style.display = "none";
-    // document.querySelector(".logo-text").style.display = "none";
+    
     
 }
 
