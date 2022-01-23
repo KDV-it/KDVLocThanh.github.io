@@ -1,8 +1,11 @@
 html {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
     font-family: helvetica,courier,arial;
 }
+=======
+>>>>>>> 7693ebd8dc52ce0188577307273490bf3426e3ab
 body{
     min-height: 100vh;
     background-image: url("./img/BG-PC.png");

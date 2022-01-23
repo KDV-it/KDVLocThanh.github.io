@@ -94,7 +94,11 @@ function random () {
     img.src = data[random].url;
     img.classList.add("img-loichua-item");
     a.appendChild(img);
+<<<<<<< HEAD
     // document.body.appendChild(a);
+=======
+    
+>>>>>>> 7693ebd8dc52ce0188577307273490bf3426e3ab
 
     document.querySelector(".container").style.display = "none";
     
