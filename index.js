@@ -94,7 +94,7 @@ function random () {
     img.src = data[random].url;
     img.classList.add("img-loichua-item");
     a.appendChild(img);
-    document.body.appendChild(a);
+    
 
     document.querySelector(".container").style.display = "none";
     
