@@ -13,7 +13,9 @@ body{
     overflow-y:hidden;
 }
 
-
+.container {
+    margin-top: 20vh;
+}
 .btn {
     width: 350px;
     height: 10vh;
@@ -35,13 +37,13 @@ body{
 }
 
 .logo {
-    width: 60%;
+    width: 40%;
     height: 20vh;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
     align-items: flex-start;
-    margin-block: 30px;
+    margin-bottom: 10px;
 }
 
 .logo-img {
