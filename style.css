@@ -1,6 +1,7 @@
 html {
     margin: 0;
     padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
     min-height: 100vh;
@@ -14,16 +15,18 @@ body{
 }
 
 .container {
-    margin-top: 20vh;
+    margin-top: 10vh;
 }
 .btn {
     width: 350px;
     height: 10vh;
-    border: 5px solid #FF0;
+    border: 5px solid rgb(243, 243, 72);
     border-radius: 25px;
     font-size: 30px;
     font-weight : 700;
     cursor: pointer;
+    background-color: #f7dba5;
+    color: #e20f20;
 }
 
 .btn:hover {
@@ -37,36 +40,85 @@ body{
 }
 
 .logo {
-    width: 40%;
-    height: 20vh;
+    
+    width: 60%;
+    height: 30vh;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     margin-bottom: 10px;
 }
 
 .logo-img {
-    width: 25%
+    width: 35%
 }
 
 .logo-text {
-    width: 75%;
+    width: 65%;
+    padding: 10px;
+    border-block: 10px solid rgb(255, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo-text .text-item-1,
+.logo-text .text-item-2 {
+    margin-block: 0;
+    font-size: 2em;
+    font-weight: bold;
+    background: linear-gradient(to bottom right, rgb(245, 234, 140),rgb(240, 219, 28));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 
 
 /* 740px 1024px */
-@media only screen and (max-width:1023px) {
+@media only screen and (max-width:739px) {
     body {
         background-image: url("./img/BG-MB.png");
     }
+
     .btn {
         width: 200px;
+    }
+    .logo {
+        width: 80%;
+
+        /* margin-top: 50px;
+        margin-bottom: 50px; */
+    }
+    .logo-text{
+        border-block: 5px solid rgb(255, 255, 0);
+    }
+    .container {
+        margin: 0;
+    }
+    .logo-text .text-item-1,
+    .logo-text .text-item-2 {
+        margin-block: 0px;
+        font-size: 12px;
+    } 
+}
+
+/* ipad */
+@media only screen and (min-width:739px) and (max-width:1023px){
+    body {
+        background-image: url("./img/BG-MB.png");
     }
     .logo {
         width: 80%;
         margin-top: 50px;
         margin-bottom: 50px;
     }
+    .container {
+        margin: 0;
+    }
+    .logo-text .text-item-1,
+    .logo-text .text-item-2 {
+        margin-block: 0px;
+    } 
 }
