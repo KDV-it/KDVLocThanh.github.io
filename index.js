@@ -88,11 +88,13 @@ function random () {
 
     
     const img = document.createElement("img");
-     
+    const a = document.querySelector("a");
 
+    a.href = data[random].url;
     img.src = data[random].url;
-    img.classList.add("img-loichua");
-    document.body.appendChild(img);
+    img.classList.add("img-loichua-item");
+    a.appendChild(img);
+    document.body.appendChild(a);
 
     document.querySelector(".container").style.display = "none";
     
