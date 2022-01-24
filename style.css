@@ -55,11 +55,11 @@ body{
 }
 
 .logo-img {
-    width: 35%
+    width: 25%
 }
 
 .logo-text {
-    width: 65%;
+    width: 70%;
     padding: 10px;
     border-block: 10px solid rgb(255, 255, 0);
     display: flex;
